@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<!-- start of head -->
+
+  <head>
+  	<title>Cookie Clicker</title>
+
+  	<!-- imports -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+  </head>
+<!-- end of head -->
+
+<!-- start of body -->
+
+  <body style="background-color: #ABAB;">
+
+  	<div style="text-align: center; margin: 10%;">
+
+		  <h1>cookie game</h1>
+
+		  <p>You have <span id="cookies_counter">???</span> cookies . . .</p>
+
+		
+		  <img style="max-width: 200px; max-height: 200px;" src="res/cookie.png" id="cookie">
+		
+  	</div>
+
+    <div style="bottom: 0;">
+
+      <h1>Shop</h1>
+      
+      <div>
+        <button style="width: 50;">click here</button>
+        <span style="width: 50;">its cool</span>
+      </div>
+
+    </div>
+
+
+<!-- start of admin -->
+    <button id="admin" style="
+      position:absolute;
+      top:0;
+      right:0;
+      font-size: 10px;">
+      admin
+    </button>
+    	
+
+    <input type="file" id="admin_file" accept=".txt"
+      style="
+      visibility: hidden;
+      position:absolute;
+      top:0;
+      right:0;
+      font-size: 10px;">
+ <!-- end of admin -->
+
+  </body>
+<!-- end of body -->
+
+  <!-- my code -->
+  <script src="code/code.js"></script>
+  <script src="code/admin.js"></script>
+
+</html>
